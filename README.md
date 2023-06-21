@@ -11,8 +11,16 @@ Android aplikacija izrađena za potrebe prikupljanja dataseta. Pomoću magnetome
 ### Android IME
 Android IME za beskontakni unos teksta zasnovan na manipulaciji ambijentalnog magnetskog polja. Permanentnim magnetom se iznad mobilnog uređaja pišu slova i pomiče pokazivač po tipkama. Aktiviranjem senzora blizine potvrđuje se odabir tipke na kojoj se trenutno nalazi pokazivač (slovo, razmak, brisanje itd.).
 
+<p align="middle">
+  <img src="/Images/LetterInput.png" width="600" />
+</p>
+
 ### Klasifikacija
 Za klasificiranje napisanog slova koristi se random forest klasifikator kojem se daju 3D podaci - X, Y, Z vrijednosti. Korišten je random forest klasifikator implementiran u scikit-learn knjižnici. U Android IME je klasifikator integriran pomoću Chaquopy SDK za pokretanje Python skripti u Android aplikacijama. Klasifikator se trenira na mobilnom uređaju.
+
+<p align="middle">
+  <img src="/Images/RFConfusionMatrix.png" width="600" />
+</p>
 
 ### Redukcija dimenzionalnosti
 Prilikom određivanja položaja pisanja slova (iznad ili pored uređaja) korištena je metoda redukcije dimenzionalnosti kako bi se odredilo kod kojeg položaja su očitane vrijednosti za ista slova što sličnije.
