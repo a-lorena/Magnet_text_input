@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MagnetCLKeyboard</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- TextView -->
+    <string name="textView">Python version</string>
+
+    <!-- BUTTONS -->
+    <!-- Prvi blok -->
+    <string name="script">📄</string>
+    <!-- Drugi blok -->
+    <string name="top1">Top1</string>
+    <string name="top2">Top2</string>
+    <string name="top3">Top3</string>
+    <string name="top4">Top4</string>
+    <string name="back">←</string>
+    <!-- Treci blok -->
+    <string name="write">✏️</string>
+    <string name="record">🔴</string>
+    <string name="stop">⬛</string>
+    <string name="backspace">⌫</string>
+    <string name="space">⎵</string>
+    <string name="enter">↲</string>
+</resources>

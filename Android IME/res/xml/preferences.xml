@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:id="@+id/calibrateButtonSet"
+        android:key="magnetSet"
+        android:title="Set Delta Value"
+        android:summary="Measure surrounding magnetic field value." />
+
+    <Preference
+        android:id="@+id/trainModelSet"
+        android:key="modelSet"
+        android:title="Train prediction model"
+        android:summary="Train and save letter prediction Random Forest model." />
+
+</PreferenceScreen>
