@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MagnetMeter</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <!-- TITLES -->
+    <string name="settings_title">Settings</string>
+
+    <!-- VALUES -->
+    <string name="value_x">X value:</string>
+    <string name="value_y">Y value:</string>
+    <string name="value_z">Z value:</string>
+    <string name="zero_value">0.0</string>
+    <string name="username_input">Username</string>
+    <string name="letters_counter">0</string>
+    <string name="max_letters">/390 (15)</string>
+    <string name="repeat_number">Number of repetitions</string>
+    <string name="file_name">File name</string>
+    <string name="letter">Letter</string>
+    <string name="username">Username</string>
+
+    <!-- BUTTONS -->
+    <string name="reset_button">Reset</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="repeat_save_button">Save</string>
+    <string name="calibrate_button">Calibrate sensor</string>
+    <string name="save_by_letter_username">Save by letter/username</string>
+    <string name="save_all">Save all</string>
+    <string name="save_option">Save</string>
+</resources>
