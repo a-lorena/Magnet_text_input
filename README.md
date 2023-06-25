@@ -9,7 +9,8 @@ Beskontaktni unos teksta na mobilnom uređaju pomoću permanentnog magneta, senz
 Android aplikacija izrađena za potrebe prikupljanja dataseta. Pomoću magnetometra ugrađenog u mobilni uređaj mjeri vrijednosti magnetskog polja te ih pohranjuje u lokalnu bazu uređaja. Podaci se zatim mogu pohraniti u JSON datoteke.
 
 <p align="middle">
-  <img src="/Images/DatasetApp.png" width="600" />
+  <img src="/Images/DatasetApp.png" width="500" />
+  <img src="/Images/DatasetExample.png" width="360" />
 </p>
 
 ### Kalibracija
