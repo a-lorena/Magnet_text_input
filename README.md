@@ -8,11 +8,14 @@ Beskontaktni unos teksta na mobilnom uređaju pomoću permanentnog magneta, senz
 ### Aplikacija za prikupljanje podataka
 Android aplikacija izrađena za potrebe prikupljanja dataseta. Pomoću magnetometra ugrađenog u mobilni uređaj mjeri vrijednosti magnetskog polja te ih pohranjuje u lokalnu bazu uređaja. Podaci se zatim mogu pohraniti u JSON datoteke.
 
-### Android IME
-Android IME za beskontakni unos teksta zasnovan na manipulaciji ambijentalnog magnetskog polja. Permanentnim magnetom se iznad mobilnog uređaja pišu slova i pomiče pokazivač po tipkama. Aktiviranjem senzora blizine potvrđuje se odabir tipke na kojoj se trenutno nalazi pokazivač (slovo, razmak, brisanje itd.).
+### Kalibracija
+Izveden je eksperiment kojim je dokazano da kalibracija magnetnog senzora omogućava dobivanje istih rezultata neovisno o lokaciji na kojoj se pišu slova.
+
+### Redukcija dimenzionalnosti
+Prilikom određivanja položaja pisanja slova (iznad ili pored uređaja) korištena je metoda redukcije dimenzionalnosti kako bi se odredilo kod kojeg položaja su očitane vrijednosti za ista slova što sličnije. Od nekoliko isprobanih metoda najbolje rezultate je dala metoda t-SNE za slova pisana iznad uređaja.
 
 <p align="middle">
-  <img src="/Images/LetterInput.png" width="600" />
+  <img src="/Images/tSNE.png" width="600" />
 </p>
 
 ### Klasifikacija
@@ -22,5 +25,9 @@ Za klasificiranje napisanog slova koristi se random forest klasifikator kojem se
   <img src="/Images/RFConfusionMatrix.png" width="600" />
 </p>
 
-### Redukcija dimenzionalnosti
-Prilikom određivanja položaja pisanja slova (iznad ili pored uređaja) korištena je metoda redukcije dimenzionalnosti kako bi se odredilo kod kojeg položaja su očitane vrijednosti za ista slova što sličnije.
+### Android IME
+Android IME za beskontakni unos teksta zasnovan na manipulaciji ambijentalnog magnetskog polja. Permanentnim magnetom se iznad mobilnog uređaja pišu slova i pomiče pokazivač po tipkama. Aktiviranjem senzora blizine potvrđuje se odabir tipke na kojoj se trenutno nalazi pokazivač (slovo, razmak, brisanje itd.).
+
+<p align="middle">
+  <img src="/Images/LetterInput.png" width="600" />
+</p>
