@@ -34,7 +34,7 @@ Za klasificiranje napisanog slova koristi se random forest klasifikator kojem se
 </p>
 
 ### Android IME
-Android IME za beskontakni unos teksta zasnovan na manipulaciji ambijentalnog magnetskog polja. Permanentnim magnetom se iznad mobilnog uređaja pišu slova i pomiče pokazivač po tipkama. Aktiviranjem senzora blizine potvrđuje se odabir tipke na kojoj se trenutno nalazi pokazivač (početak pisanja, slovo, razmak, brisanje itd.).
+Android IME za beskontakni unos teksta zasnovan na manipulaciji ambijentalnog magnetskog polja. Permanentnim magnetom se iznad mobilnog uređaja pišu slova i pomiče pokazivač po tipkama. Korisniku aplikacija ponudi četiri slova s najvećom vjerojatnošću. Aktiviranjem senzora blizine potvrđuje se odabir tipke na kojoj se trenutno nalazi pokazivač (početak pisanja, slovo, razmak, brisanje itd.).
 
 <p align="middle">
   <img src="/Images/LetterInput.png" width="600" />
