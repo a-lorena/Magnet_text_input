@@ -6,7 +6,7 @@ Beskontaktni unos teksta na mobilnom uređaju pomoću permanentnog magneta, senz
 - JupyterNotebook, Python, scikit-learn
 
 ### Aplikacija za prikupljanje podataka
-Android aplikacija izrađena za potrebe prikupljanja dataseta. Pomoću magnetometra ugrađenog u mobilni uređaj mjeri vrijednosti magnetskog polja te ih pohranjuje u lokalnu bazu uređaja. Podaci se zatim mogu pohraniti u JSON datoteke.
+Android aplikacija izrađena za potrebe prikupljanja dataseta. Pomoću magnetometra ugrađenog u mobilni uređaj mjeri vrijednosti magnetskog polja te ih pohranjuje u lokalnu bazu uređaja. Podaci se zatim mogu pohraniti u JSON datoteke. Tijekom stvaranja dataseta za treniranje klasifikatora korisnicima je zadatak bio pisati velika tiskana slova engleske abecede. Poredak gesti za pojedino slovo nije bio unaprijed definiran jer je cilj bio dobiti što "fleksibilniji" model za klasifikaciju.
 
 <p align="middle">
   <img src="/Images/DatasetApp.png" width="450" />
