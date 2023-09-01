@@ -1,4 +1,6 @@
-## Magnet text input
+## Unos teksta magnetom
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/a-lorena/Magnet_text_input/blob/main/README.en.md)
+
 Beskontaktni unos teksta na mobilnom uređaju pomoću permanentnog magneta, senzora i random forest klasifikatora.
 
 ### Tehnologije i razvojni alati
